@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+header {
+    background-color: lightgrey;
+    height: 20vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2013/10/16/22/54/leaf-196566_1280.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+header .title {
+    color: beige;
+    text-align: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header nav li {
+    padding: 10px;
+}
+header nav a {
+    color: beige;
+    font-weight: 900;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: red;
+}
+.container {
+    background-color: azure;
+    max-width: 1200px;;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+footer {
+    background-color:black;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    padding: 20px;
+    color: beige;
+}
+main {
+    background-color: azure;
+    /* height: 100%; */
+    flex-direction: column;
+}
+.chosen-entry {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.chosen-entry-text h2 {
+    margin: 10px 0;
+}
+.chosen-entry-text p {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.chosen-entry-picture {
+    margin-bottom: 15px;
+}
+aside {
+    background-color: beige;
+    /* height: 100%; */
+}
+aside ul {
+    list-style: none;
+    padding: 10px;
+}
+aside ul li {
+    
+}
+aside ul li a {
+    text-decoration: none;
+}
+@media (min-width: 726px) {
+    .container {
+        flex-direction: row;
+    }
+    main {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+    }
+    header {
+        flex-direction: row;
+    }
+}
