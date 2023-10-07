@@ -66,7 +66,6 @@ footer p {
 }
 main {
     background-color: azure;
-    /* height: 100%; */
     flex-direction: column;
 }
 .chosen-entry {
@@ -85,7 +84,6 @@ main {
 }
 aside {
     background-color: beige;
-    /* height: 100%; */
 }
 aside ul {
     list-style: none;
