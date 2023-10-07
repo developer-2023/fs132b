@@ -56,6 +56,9 @@ footer {
     height: 10vh;
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer p {
     padding: 20px;
@@ -87,6 +90,7 @@ aside {
 aside ul {
     list-style: none;
     padding: 10px;
+    text-align: center;
 }
 aside ul li {
     
